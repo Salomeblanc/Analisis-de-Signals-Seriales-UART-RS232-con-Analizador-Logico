@@ -2,7 +2,7 @@
 
 **Universidad Militar Nueva Granada — Asignatura: Comunicaciones Digitales**
 
-**Autores:** Riveros Sierra Harol Felipe (1401660), Bohorquez Blanco Salome (1401654)
+**Autora:** Bohorquez Blanco Salome (1401654)
 **Docente:** Ing. José de Jesús Rugeles Uribe
 
 ## Descripción
