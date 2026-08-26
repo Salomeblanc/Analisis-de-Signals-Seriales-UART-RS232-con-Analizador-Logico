@@ -3,6 +3,7 @@
 **Universidad Militar Nueva Granada — Asignatura: Comunicaciones Digitales**
 
 **Autora:** Bohorquez Blanco Salome (1401654)
+
 **Docente:** Ing. José de Jesús Rugeles Uribe
 
 ## Descripción
