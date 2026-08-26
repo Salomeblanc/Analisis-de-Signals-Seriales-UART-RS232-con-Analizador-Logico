@@ -15,6 +15,8 @@ Analizar la estructura del protocolo (bit de inicio, bits de datos, paridad y bi
 Comprender el funcionamiento y las limitaciones de los analizadores lógicos.
 Desarrollar habilidades de programación en MicroPython.
 Estructura del repositorio
+
+
 4 laboratorio comunicacion digital/
 └── 4.2/
     ├── ANALIZADOR_LOGICO.docx                                                    # Informe completo del laboratorio
@@ -26,6 +28,8 @@ Estructura del repositorio
     ├── csv de la letra U.txt                                                     # Exportación CSV de la captura (letra U)
     ├── envio de varios caracteres u.png                                          # Evidencia: captura decodificada, carácter U
     └── envio de la frase umng 2026 lider en telecomunicaciones.png               # Evidencia: captura decodificada, trama completa
+
+    
 Hardware y software utilizados
 Elemento	Detalle
 Microcontrolador	Raspberry Pi Pico 2W (RP2350)
@@ -33,6 +37,8 @@ Firmware	MicroPython
 Pines usados	GPIO0 (TX), GPIO1 (RX), GND
 Instrumento de medida	Analizador lógico USB, 8 canales, hasta 24 MS/s
 Software de captura	Analizador de protocolo Async Serial (decodificación UART)
+
+
 Configuración UART empleada
 Script	Baudrate	Bits de datos	Paridad	Bits de parada
 Codigo para la letra u.py	9600	8	None	1
@@ -44,5 +50,6 @@ Configurar el software de captura con la frecuencia de muestreo deseada y añadi
 Ejecutar el script en la Pico y capturar la señal.
 Exportar la captura (.sal / .csv) y verificar la decodificación contra el mensaje enviado.
 Contenido del informe
+
 
 El informe (ANALIZADOR_LOGICO.docx) desarrolla el marco teórico (trama UART, tasa de baudios, bit de paridad, criterio de Nyquist, muestras por bit, RS232 vs. UART de nivel lógico, error de cuantización temporal) y presenta los resultados experimentales obtenidos con el montaje descrito.
